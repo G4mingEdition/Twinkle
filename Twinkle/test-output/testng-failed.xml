@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="be.twinkle.tests.TestNG_Integration">
+        <methods>
+          <include name="test_rateSkill"/>
+          <include name="initialiser_SkillsList"/>
+          <include name="test_listEmployees"/>
+          <include name="initialiser_Employee"/>
+          <include name="initialiser_Function"/>
+          <include name="test_addEmployee"/>
+          <include name="initialiser_Bundle"/>
+          <include name="test_listEmployeesByFunction"/>
+          <include name="initialiser_EmployeesManangementImpl"/>
+        </methods>
+      </class> <!-- be.twinkle.tests.TestNG_Integration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

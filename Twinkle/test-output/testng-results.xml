@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5279" started-at="2019-08-09T22:27:28Z" finished-at="2019-08-09T22:27:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5279" started-at="2019-08-09T22:27:28Z" finished-at="2019-08-09T22:27:33Z">
+      <class name="be.twinkle.tests.TestNG_Integration">
+        <test-method status="PASS" signature="initialiser_Bundle()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="initialiser_Bundle" is-config="true" duration-ms="13" started-at="2019-08-09T22:27:28Z" finished-at="2019-08-09T22:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiser_Bundle -->
+        <test-method status="PASS" signature="initialiser_EmployeesManangementImpl()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="initialiser_EmployeesManangementImpl" is-config="true" duration-ms="2589" started-at="2019-08-09T22:27:28Z" finished-at="2019-08-09T22:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiser_EmployeesManangementImpl -->
+        <test-method status="PASS" signature="initialiser_SkillsList()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="initialiser_SkillsList" is-config="true" duration-ms="42" started-at="2019-08-09T22:27:30Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.initialiser_Bundle" finished-at="2019-08-09T22:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiser_SkillsList -->
+        <test-method status="PASS" signature="initialiser_Function()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="initialiser_Function" is-config="true" duration-ms="21" started-at="2019-08-09T22:27:30Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.initialiser_SkillsList" finished-at="2019-08-09T22:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiser_Function -->
+        <test-method status="PASS" signature="initialiser_Employee()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="initialiser_Employee" is-config="true" duration-ms="2" started-at="2019-08-09T22:27:31Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.initialiser_Function" finished-at="2019-08-09T22:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiser_Employee -->
+        <test-method status="PASS" signature="test_addEmployee()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="test_addEmployee" duration-ms="219" started-at="2019-08-09T22:27:31Z" finished-at="2019-08-09T22:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addEmployee -->
+        <test-method status="PASS" signature="test_listEmployees()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="test_listEmployees" duration-ms="1716" started-at="2019-08-09T22:27:31Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.test_addEmployee" finished-at="2019-08-09T22:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_listEmployees -->
+        <test-method status="PASS" signature="test_listEmployeesByFunction()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="test_listEmployeesByFunction" duration-ms="558" started-at="2019-08-09T22:27:32Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.test_listEmployees" finished-at="2019-08-09T22:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_listEmployeesByFunction -->
+        <test-method status="PASS" signature="test_rateSkill()[pri:0, instance:be.twinkle.tests.TestNG_Integration@28feb3fa]" name="test_rateSkill" duration-ms="87" started-at="2019-08-09T22:27:33Z" depends-on-methods="be.twinkle.tests.TestNG_Integration.test_listEmployeesByFunction" finished-at="2019-08-09T22:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_rateSkill -->
+      </class> <!-- be.twinkle.tests.TestNG_Integration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

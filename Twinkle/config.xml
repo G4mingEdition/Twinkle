@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config OK-->
+<persistance type="DB">
+	    <dao>be.twinkle.daoimpl.EmployeeDaoImpl</dao>
+   	    <driver>org.postgresql.Driver</driver>
+	    <url>EXAMPLE OF HOST : jdbc:postgresql://postgresql-twinkle.be:5432/twinkle_db</url>
+	    <user>USERNAME</user>
+	    <password>PASSWORD</password>
+</persistance>

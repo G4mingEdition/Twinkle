@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/bonecp-0.7.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/guava-13.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/postgresql-8.4-703.jdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/slf4j-nop-1.6.6.jar"/>
+	<classpathentry kind="lib" path="D:/projet_java_2019/Twinkle/res/swingx-1.6.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
